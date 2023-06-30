@@ -1,0 +1,23 @@
+.caroBorderSize{
+    display:flex;
+    flex-direction: row;
+}
+
+.sliderBox-cake {
+    display:flex;
+    flex-direction: column;
+    /* outline: 1px solid red; */
+    justify-content: space-evenly;
+}
+
+.sliderBox-cake img{
+    display:flex;
+    justify-content: space-between;
+    height: 120px;
+    width: 501px;
+    padding: 10px;
+}
+
+.carousel{
+    padding-top: 30px;
+}

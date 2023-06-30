@@ -1,0 +1,114 @@
+.end-page{
+    position: relative;
+    top: 1711px;
+    z-index: 2;
+}
+
+.desc-container-end{
+    display: flex;
+    height: fit-content;
+}
+
+.descBGs{
+    position: relative;
+    width: 100%;
+    height: 370px;
+}
+
+.end-container{
+    top: 50px;
+    width: 100%;
+    height: fit-content;
+}
+
+.descriBox{
+    position: absolute;
+    z-index: 1;
+    top:4px;
+    height: 536px;
+    margin-left:6%;
+    width: fit-content;
+}
+
+.descBGs{
+    position: relative;
+    z-index: -1;
+    height: 370px;
+}
+
+.desc-container-end{
+    position: relative;
+    left: 48%;
+    height: fit-content;
+    width: fit-content;
+}
+
+.group-end{
+    position: relative;
+    top: 210px;
+    margin-left: 140px;
+    width: fit-content;
+    position: relative;
+    height: fit-content;
+}
+
+.group-end div{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.group-end p{
+    font-size: 14px;
+    width: 180px;
+    color: aliceblue;
+    font-family: oswald;
+    font-weight: 100px;
+}
+
+.group-end a{
+    top: -3px;
+    width: 180px;
+    font-size: 14px;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: oswald;
+    
+}
+
+.group-end img{
+    height: 19px;
+    width: 19px;
+    margin-right: 8px;
+}
+
+.group-end h1{
+    margin-bottom: 10px;
+    font-family: oswald;
+    color: aliceblue;
+    
+}
+
+.base-box-end_{
+   position: relative;
+   display: flex;
+   justify-content: center;
+}
+
+.base-box-end_ img{
+    display: flex;
+    position: relative;
+    z-index: -1;
+    width: 100%;  
+}
+
+.base-box-end_ h3{
+    position: absolute;
+    text-align: center;
+    color: aliceblue;
+    padding: 40px;
+    font-family: poppins;
+    font-size: 24px;
+    z-index: 2;
+}
+
+

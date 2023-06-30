@@ -1,0 +1,136 @@
+.menuPricing-main{
+    height: 0;
+}
+.menuP-C{
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    /* outline: 4px solid black; */
+    display: flex;
+    justify-content: center;
+    /* padding-bottom: 30px; */
+}
+
+.title-mp-C{
+    padding-top: 90px;
+    font-size: 40px;
+    font-family: Lucida Calligraphy;
+    font-weight: 200;
+    color: #E69A41;
+}
+
+.titleDisc-mp-C{
+    position: relative;
+    font-family: oswald;
+    font-size: 40px;
+    left: 20%;
+}
+
+.contentTitle-mp{
+    height: fit-content;
+}
+
+.contentTitle-mp img{
+    position: relative;
+    left: 24%;
+}
+
+.nav_menu img{
+    position: relative;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    left: 37%;
+    width: 400px;
+}
+
+.shortDisc-about{
+    display: flex;
+    justify-content: space-evenly;
+    /* padding-top: 10px; */
+}
+
+.set-box{
+    z-index: 1;
+}
+
+.set-box img{
+    position: relative;
+    top: 100px;
+}
+
+.base-about-menu{
+    position:absolute;
+    width: 100%;
+    top: -90px;
+    height: 411px;
+    /* top: -100px; */
+    /* outline: 5px solid rgb(16, 189, 39); */
+}
+
+.moreAbout{
+    position: relative;
+    top:-70px;
+    padding-left: 39%;
+    font-family: Oswald;
+    font-weight: 200;
+    font-size: 15px;
+    color: #656565;
+    top: 30px;
+    /* outline: 5px solid rgb(16, 180, 189); */
+}
+
+.end-disc-about-0{
+    position:relative;
+    z-index: -1;
+    /* outline: 5px solid red; */
+    /* height: 40px;to be manipulate */
+}
+
+.discount{
+    position: relative;
+    text-align: center;
+    font-size: 48px;
+    color: aliceblue;
+    font-family: Oswald;
+    top: 110px;
+    z-index: 1;
+    height: fit-content;
+    /* outline: 5px solid rgb(255, 242, 0); */
+}
+
+.outer-box-m{
+    position: relative;
+    /* margin-top: 10px; */
+    left: 45%;
+    height: fit-content;
+    /* outline: 1px solid red; */
+    width: fit-content;
+    padding: 7px;
+    font-size: 9px;
+    background-color: #E69A41;
+    font-family: poppins;
+    font-weight: 100;
+    top: 0px;
+    height: fit-content;
+    /* outline: 5px solid rgb(0, 166, 255); */
+    top: 150px;
+    z-index: 1;
+}
+
+.inner-box-m{
+    outline: 2px solid white;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+
+.inner-box-m h1{
+    padding: 5px, 5px, 5px, 5px;
+    color: aliceblue;
+}
+
+
+

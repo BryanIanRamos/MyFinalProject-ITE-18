@@ -1,0 +1,47 @@
+.SlideStore{
+    color: bisque;
+    position: absolute;
+    outline: auto;
+}
+
+.item-Container{
+    display: flex;
+    position:relative;
+    justify-content: center;
+    outline: auto;
+    flex-direction: column;
+    width: 70%;
+    padding-right: 50px;
+    
+}
+
+.item-Container h2{
+    position: relative;
+}
+
+.item-Container h2{
+    position: relative;
+}
+
+.item-border{
+    outline: 1px solid green;
+    width: 50%;
+}
+
+/* article {
+    height: inherit;
+    outline: 1px solid rgb(236, 56, 32);
+} */
+
+article .activeSlide{
+    opacity: 1;
+    transform: translateX(0)
+}
+
+article .lastSlide{
+    transform: translateX(-100%)
+}
+
+article .nextSlide{
+    transform: translateX(-100%)
+}

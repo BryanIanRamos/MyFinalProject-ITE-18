@@ -1,0 +1,40 @@
+.nav-box-content {
+    position: relative;
+    height: 40px;
+    background-color: #3A3531;
+}
+
+.login-side{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex-direction: row;
+}
+
+.slider {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .slides-container {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .slide {
+    flex-shrink: 0;
+    width: 100%;
+  }
+
+  .slideImage-size {
+    position: relative;
+    height: 500px;
+    width: 100%;
+  }
+
+  .main-side{
+    width: 60%;
+  }
+
+  
+  

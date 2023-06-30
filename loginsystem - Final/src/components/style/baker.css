@@ -1,0 +1,83 @@
+.baker-container{
+    top: 90px;
+    position: relative;
+    text-align: center;
+    /* outline: 1px solid blue; */
+}
+
+.bakers-page{
+    position: relative;
+    top: 1311px;
+}
+
+.parent-baker-container{
+    width: 100%;
+    /* outline: 1px solid red; */
+    height: fit-content;
+}
+
+.baker-container img{
+    margin-top: 10px;
+}
+.bakers-{
+    color: #E69A41
+}
+
+.chefs-container{
+    display: flex;
+    position: relative;
+    justify-content: center;  
+
+    top: 140px;
+    width: 100%;
+}
+
+.chefs-container img{
+    padding-left: 15px;
+    width: 266px;
+    height: 316px;
+}
+
+.cakeBase{
+    position: relative;
+    top: 160px;
+    width: 100%;
+    height: 280px;
+    z-index: -1;
+}
+
+.text-content-cb{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: Oswald;
+    top: -60px;
+}
+
+.text-content-cb h2{
+    color:#E69A41;
+    font-size: 20px;
+}
+
+.text-content-cb h1{
+    color:aliceblue;
+    margin-bottom:5px;
+    font-size: 30px;
+}
+
+.text-content-cb p{
+    color:aliceblue;
+    margin-bottom:10px;
+    margin-top:10px;
+    width: 500px;
+    font-size: 15px;
+}
+
+.baseCake-container-C{
+    position: relative;
+    height: 200px;
+    margin-top: 0;
+}

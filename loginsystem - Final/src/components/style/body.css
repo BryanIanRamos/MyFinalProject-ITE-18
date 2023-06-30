@@ -1,0 +1,172 @@
+.cakeBG{
+    height: 595px;
+    width: 100%;
+}
+
+.Body{
+    display: flex;
+
+}
+
+.tittle_1{
+    position: absolute;
+    color: #E69A41;
+    font-family: 'Noto Serif';
+    font-display: light;
+    top: 220px;
+    font-size: 50px;
+    left: 100px;
+}
+
+.tittle_2{
+    position: absolute;
+    color: #ffff;
+    font-family: 'Noto Serif';
+    font-display: 50;
+    top: 280px;
+    font-size: 70px;
+    left: 100px;
+}
+
+.tittle_des{
+    position: absolute;
+    color: #ffff;
+    font-family: 'Kanit';
+    font-display: 50;
+    top: 375px;
+    font-size: 40px;
+    left: 100px;
+}
+
+.button{
+    position: absolute;
+    background-color: #E69A41;
+    top: 440px;
+    left: 102px;
+}
+
+.button .buy_button{
+    position: relative;
+    color: white;
+    padding: 7px;
+    padding-left: 15PX;
+    padding-right: 15PX;
+    font-size: 10px;
+    text-align: center;
+    outline: 2px solid white;
+    margin: 7px;
+}
+
+.button:hover {
+    background-color: #e69941c4;
+}
+
+.UserButton{
+    position: absolute;
+    right: 40px;
+    top: 150px;
+    display: flex;
+}
+
+.UserButton .Ubutton {
+    margin-right: 30px;
+    height: 30px;
+    width: 85px;
+    font-family:'Calibri';
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 14px;
+    background-color:transparent;
+    border-radius: 10px;
+    border: 2px solid #E69A41;
+    color: white;
+    
+}
+
+.Ubutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.UserButton .Ubutton:hover {
+    background-color:#E69A41;
+} 
+
+@media all and (max-width: 700px){
+    .tittle_1{
+        top: 225px;
+        font-size: 33px;
+        left: 75px;
+    }
+
+    .tittle_2{
+        top: 265px;
+        left: 75px;
+        font-size: 53px;
+    }
+
+    .tittle_des{
+        top: 335px;
+        left: 75px;
+        font-size: 23px;
+    }
+
+    .button{
+        top: 385px;
+        left: 90px;
+    }
+    .button .buy_button{
+        font-size: 10px;
+    }
+
+    div.button{
+        left: 75px;
+    }
+}
+
+
+
+@media all and (max-width: 520px){
+    .tittle_1{
+        top: 225px;
+        font-size: 33px;
+        left: 50px;
+    }
+
+    .tittle_2{
+        top: 265px;
+        left: 50px;
+        font-size: 53px;
+    }
+
+    .tittle_des{
+        top: 335px;
+        left: 50px;
+        font-size: 23px;
+    }
+
+    .button{
+        top: 385px;
+        left: 90px;
+    }
+    .button .buy_button{
+        font-size: 10px;
+    }
+
+    div.button{
+        left: 55px;
+    }
+
+    button{
+        position: absolute;
+        top: 238px;
+        right:210px;
+    }
+    .cakeBG{
+        height: 405px;
+        width: 100%;
+    }
+}
+
+

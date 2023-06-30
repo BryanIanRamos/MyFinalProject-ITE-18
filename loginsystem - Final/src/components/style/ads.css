@@ -1,0 +1,20 @@
+.adsContainer{
+    padding: 20px;  
+}
+
+.adsTitle{
+    font-family: Oswald;
+    font-size: 25px;
+    color: #E69A41;
+    margin-bottom: 10px;
+}
+
+.ads_body{
+    margin-bottom: 30px;
+}
+
+.adsLink{
+    text-decoration: none;
+    color: gray;
+    font-size: 15px;
+}

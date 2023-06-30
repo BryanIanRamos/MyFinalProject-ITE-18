@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+}
+
+body{
+
+    background-color: #FFFFFF;
+}
+
+.Home{
+    height: fit-content;
+}
+  
+
+.header_title {
+    color: rgb(123, 166, 206);
+    text-align: center;
+}
+
+
+/***===Header====***/
+.navHead{
+    display: flex;
+    height: 68px;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.navHead div{
+    position: relative;
+    background-color: #FDF6ED;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+}
+
+/*==(centerBOx)==*/
+.navHead .box{
+    background-color: #E69A41;
+    display: flex;
+}
+.box .outline{
+    display: flex;
+    background-color: #E69A41;
+    border: 2px solid #FDF6ED;
+    height: 60%;
+    width: 95%;
+    top: 5px;
+    justify-content: center;
+}
+
+h4{
+    position: absolute;
+    color: #FDF6ED;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    bottom: .1px; 
+}
+/*==(centerBOx - end)==*/
+
+/*===(Right-box)===*/
+.white_box{
+    display: flex;
+    justify-content: center;
+}
+
+.headerLogo{
+    position: relative;
+    top: 10px;
+}
+
+.white_box .call{
+    position: relative;
+    color: black;
+    font-size: 16px;
+    top: 10px;
+    font-weight: lighter;
+    font-family: 'Oswald';
+    
+}
+.white_box .num{
+    position: relative;
+    color: black;
+    top: 30px;
+    right: 58px;
+    font-weight: lighter;
+    font-family: 'Oswald';
+    font-size: 16px;
+    
+}
+
+.white_box .num:hover{
+    color: #E69A41;
+    
+}
+/*===(Right-box-end)===*/
+
+/*===(Left-box)===*/
+.email_logo{
+    position: relative;
+    right: 40px;
+    top: 15px;
+}
+
+.mail{
+    position: relative;
+    top: 20px;
+    left:70px;
+    font-weight: lighter;
+    font-family: 'Oswald';
+    font-size: 16px;
+}
+
+.email{
+    position: relative;
+    top: 40px;
+    font-weight: lighter;
+    font-family: 'Oswald';
+    font-size: 16px;
+    right: 35px;
+    font-size: 11px;
+}
+
+.email:hover {
+    color: #E69A41;
+}
+
+/*===(Left-box-end)===*/
+
+.temp-UI {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7%;
+    
+}
+
+.temp-UI .temp-UI-inner {
+    display: flex;
+    outline: auto;
+    height: 40vh;
+    width: 80vh;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.7);
+}
+
+.temp-UI .header {
+    position:relative;
+    left: 20px;
+    top: 20px;
+    height: 0;
+    outline: auto;
+}
+
+.body {
+    position: relative;
+    display: flex;
+    margin-top: 70px;
+    margin-left: 20px;
+    height: 190px;
+    width: 72vh;
+    padding: 10px;
+    
+}
+
+.body h3{
+    position: relative;
+    left: 30px;
+    top: 15px;
+}
+
+.body img{
+ border: 1px solid;
+}
+
+.body-info button {
+    position: relative;
+    top: 11vh;
+    left: 35vh;
+}
+
+.username-text{
+    font-family: 'Oswald';
+    font-weight: 100;
+    color: #E69A41;
+}
+
+.body-info h3{
+    font-family: 'poppins';
+}
+/*Resposive property for header*/
+@media all and (max-width: 800px){
+    .box .outline{
+        height: 65%;
+    }
+
+    .box h4{
+        top: 5px;
+        font-size: 35px;
+    }
+    .email_logo{
+        position: relative;
+        right: 40px;
+        top: 20px;
+        height: 35px;
+        width: 35px;
+    }
+
+    .headerLogo{
+        top: 20px;
+        height: 35px;
+        width: 35px;
+        left: 20px;
+        padding-right: 20px;
+    }
+
+    .white_box .call{
+        font-size: 14px;
+        top: 19px;
+    }
+
+    .white_box .num{
+        top: 35px;
+        font-size: 13px;
+        padding-left: 10px;
+    }
+
+    .email_logo{
+        position: relative;
+        right: 25px;
+        top: 20px;
+    }
+
+    .email{
+        font-size: 10px;
+        top: 35px;
+        right: 16px;
+    }
+
+    .mail{
+        font-size: 14px;
+        /* padding-left: 5px; */
+    }
+}
+@media all and (max-width: 640px){
+    .box .outline{
+        height: 65%;
+    }
+
+    .box h4{
+        top: 8px;
+        font-size: 30px;
+    }
+    .email_logo{
+        position: relative;
+        top: 20px;
+        height: 30px;
+        width: 30px;
+    }
+
+    .headerLogo{
+        top: 20px;
+        height: 30px;
+        width: 30px;
+        left: 30px;
+        padding-right: 30px;
+    }
+
+    .white_box .call{
+        font-size: 13px;
+        top: 19px;
+    }
+
+    .white_box .num{
+        top: 35px;
+        font-size: 10px;
+        right: 55px;
+    }
+
+    .email_logo{
+        position: relative;
+        /* right: 25px; */
+        top: 20px;
+    }
+
+    .email{
+        font-size: 9px;
+        top: 35px;
+        right: 22px;
+    }
+
+    .mail{
+        font-size: 13px;
+        left: 55px;
+        /* padding-left: 5px; */
+    }
+}
+@media all and (max-width: 588px){
+    .box .outline{
+        height: 65%;
+    }
+
+    .box h4{
+        top: 10px;
+        font-size: 27px;
+    }
+    .email_logo{
+        position: relative;
+        top: 20px;
+        height: 28px;
+        width: 28px;
+    }
+
+    .headerLogo{
+        top: 20px;
+        height: 30px;
+        width: 28px;
+        left: 28px;
+        padding-right: 30px;
+    }
+
+    .white_box .call{
+        font-size: 11px;
+        top: 19px;
+    }
+
+    .white_box .num{
+        top: 35px;
+        font-size: 8px;
+        right: 49px;
+    }
+
+    .email_logo{
+        position: relative;
+        /* right: 25px; */
+        top: 20px;
+    }
+
+    .email{
+        font-size: 8px;
+        top: 35px;
+        right: 21px;
+    }
+
+    .mail{
+        top: 22px;
+        font-size: 11px;
+        left: 47px;
+        /* padding-left: 5px; */
+    }
+}
+@media all and (max-width: 524px){
+    .white_box{
+        display: none;
+    }
+    
+}
+/*END OF HEADER*/
+
+.invisible-point1{
+    opacity: 0;
+    position: absolute;
+    outline: 2px solid red;
+    z-index: 3;
+    background-color: aqua;
+    top: 810px;
+    width: 100%;
+}
+
+.invisible-point2{
+    opacity: 0;
+    position: absolute;
+    outline: 2px solid rgb(0, 255, 72);
+    z-index: 3;
+    background-color: aqua;
+    top: 1800px;
+    width: 100%;
+}

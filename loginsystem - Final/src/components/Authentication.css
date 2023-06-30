@@ -1,0 +1,130 @@
+.log-in-UI {
+    position: fixed;
+    outline: 3px solid orange;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 200ms ease-in-out; 
+    background-color: #FFFFFF;
+    width: 500px;
+    max-width: 80%;
+    z-index: 10;
+    border-radius: 7px;
+    
+}
+
+.layout-overlay {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    pointer-events: none;
+}
+
+.log-in-header {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid orange;
+
+    font-size: 1.25rem;
+    font-weight: bold;
+
+}
+
+.log-in-body {
+    padding: 10px 30% 50px;
+}
+
+.log-in-UI input{
+    height: 25px;
+    width: 100%;
+    border-radius: 7px;
+}
+
+
+.popup {
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-inner {
+    position: relative;
+    width: 25%;
+    max-width: 640px;
+    background-color: #fff;
+    border-radius: 7px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Login-popup .signup-inner {
+    padding: 32px;
+    width: 5%;
+    max-width: 640px;
+    background-color: #fff;
+    border-radius: 7px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup .close-btn {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
+
+.Login-popup{
+    position: absolute;
+    right: 3%;
+    top:   150px;
+
+    
+}
+
+.Login-popup .header{
+   font-size: 30px;
+}
+
+.Login-popup .Login-btn{
+    height: 35px;
+    width: 100px;
+    border-radius: 8px;
+    background-color: transparent;
+    border-style: solid;
+    border: 2px solid orange;
+    color: white;
+    font-size: medium;
+    font-weight: 600;
+}
+
+.Login-popup .Login-btn:hover{
+    background-color: orange;
+
+}
+
+.click-here {
+    text-decoration: none;
+    padding: none;
+    font-size: 9px;
+    top: 0px;
+    padding: 0%;
+    color: orange;
+}

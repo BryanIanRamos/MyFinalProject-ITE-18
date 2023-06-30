@@ -1,0 +1,286 @@
+.about-content{
+    padding: 0%;
+    height: 1171px;
+    width: 100%;
+    /* outline: 2px solid blue; */
+}
+
+
+.about-C{
+    position: relative;
+    width: auto;
+    text-align: center;
+    font-size: 48px;
+    font-family:Noto Serif;
+    font-weight:540;
+    top: 70px;
+    padding-bottom: 65px;
+    color: #E69A41;
+}
+
+.welcome-C{
+    position: relative;
+    width: auto;
+    text-align: center;
+    font-size: 48px;
+    padding-bottom: 20px;
+}
+
+.Line-C{
+    position:relative;
+    left: 41%;
+    padding-bottom: 80px;
+}
+
+.title-C{
+    position: relative;
+    top: 20px;
+    padding-left: 50%;
+    font-size: 32px;
+}
+
+.discreption-C{
+    position: relative;
+    padding-top: 50px;
+    font-size: 27px;
+    padding-left: 50%;
+    padding-bottom: 40px;
+}
+
+.Cake-C{
+    position: absolute;
+    left: 140px;
+    padding-top: 123px;
+    height: 478px;
+    width: 475px;
+}
+
+.short-discription{
+    /* border: 1px solid black; */
+    width: fit-content;
+    position: relative;
+    left: 45%;
+    display: flex;
+    align-content: space-around;
+    padding: 10px;
+}
+
+.image-C{
+    height: 85px;
+    width: 99px;
+    padding-right: 20px;
+    padding-left: 40px;
+}
+
+.base-C{
+    width: 100%;
+    padding-top: 20px;
+}
+ 
+.rate-dis-C{
+    position: relative; 
+    display: flex;
+    /* left: 9%; */
+    top: -200px;
+    width: fit-content;
+    margin: auto;
+}
+
+.rate-dis-C img{
+    position: relative;
+    height: 70px;
+    width: 70px;
+    padding-right: 250px;
+}
+
+.rate-dis-C h3{
+    position: relative;
+    top: -75px;
+    left: 85px;
+}
+
+.title-r-C{
+    font-size: 20px;
+    color: #E69A41;
+    width: fit-content;
+}
+
+.rate-r-C{
+    font-size: 48px;
+    color: aliceblue;
+    width: fit-content;
+}
+
+@media all and (max-width: 1441px){
+    .Cake-C{
+        left: 120px;
+    }
+
+    .title-C{
+        padding-left: 47%;
+    }
+
+    .short-discription{
+        left: 43%;
+        padding: 10px;
+    }
+
+    .discreption-C{
+        position: relative;
+        padding-top: 50px;
+        font-size: 27px;
+        padding-left: 47%;
+        padding-bottom: 40px;
+    }
+}
+
+@media all and (max-width: 1420px) {
+    .about-C{
+        font-size: 42px;
+    }
+
+    .welcome-C{
+        font-size: 42px; 
+    }
+
+    .Line-C{
+        left: 41%;
+        padding-bottom: 80px;
+        width: 280px;
+    }
+
+    .Cake-C{
+        position: absolute;
+        left: 140px;
+        padding-top: 123px;
+        height: 448px;
+        width: 445px;
+    }
+
+    .title-C{
+        position: relative;
+        top: 20px;
+        padding-left: 47%;
+        font-size: 29px;
+    }
+
+    .discreption-C{
+        position: relative;
+        padding-top: 50px;
+        font-size: 24px;
+        padding-left: 47%;
+        padding-bottom: 40px;
+    }
+
+    .image-C{
+        height: 65px;
+        width: 79px;
+        padding-right: 20px;
+        padding-left: 40px;
+    }
+
+    .box-Dis-C h3{
+        font-size: 17px;
+    }
+
+    .box-Dis-C p{
+        font-size: 14px;
+    }
+
+   
+}
+
+@media all and (max-width: 1274px) {
+    .about-C{
+        font-size: 42px;
+    }
+
+    .welcome-C{
+        font-size: 41\3px;
+        padding-bottom: 20px;
+    }
+
+    .Line-C{
+        position:relative;
+        left: 41%;
+        padding-bottom: 80px;
+    }
+
+    .Cake-C{
+        position: absolute;
+        left: 140px;
+        padding-top: 123px;
+        height: 418px;
+        width: 415px;
+    }
+
+    .title-C{
+        position: relative;
+        top: 20px;
+        padding-left: 48%;
+        font-size: 26px;
+    }
+    
+    .discreption-C{
+        font-size: 22px;
+        padding-left: 48%;
+       
+    }
+
+    .image-C{
+        height: 55px;
+        width: 69px;
+        padding-right: 20px;
+        padding-left: 50px;
+    }
+
+    .box-Dis-C h3{
+        font-size: 15px;
+    }
+
+    .box-Dis-C p{
+        font-size: 13px;
+    }
+
+    .short-discription{
+        width: fit-content;
+        position: relative;
+        left: 43%;
+        display: flex;
+        align-content: space-around;
+        padding: 10px;
+    }
+
+    .rate-dis-C img{
+        position: relative;
+        height: 50px;
+        width: 50px;
+        padding-right: 200px;
+    }
+
+    .title-r-C{
+        font-size: 15px;
+        color: #E69A41;
+        width: fit-content;
+    }
+    
+    .rate-r-C{
+        font-size: 24px;
+        color: aliceblue;
+        width: fit-content;
+    }
+
+    .rate-dis-C h3{
+        position: relative;
+        top: -50px;
+        left: 80px;
+    }
+
+    .rate-dis-C{
+        top: -162px;
+        width: fit-content;
+        margin:0%;
+        padding: auto;
+        left: 10%;
+    }
+}

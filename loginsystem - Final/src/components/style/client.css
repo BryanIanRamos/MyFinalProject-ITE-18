@@ -1,0 +1,37 @@
+.end-page{
+    position: relative;
+    top: 1211px;
+}
+
+.end-container{
+    z-index: -5;
+}
+
+.client-page{
+    position: relative;
+    top: 1350px;
+}
+
+.client-content{
+    position: relative;
+    top: 290px;
+    text-align: center;
+}
+
+.client-content h2{
+    color: #E69A41;
+    font-family: Noto Serif;
+    margin-bottom: 5px;
+    font-size: 24px;
+}
+
+
+.client-content h1{
+    font-family: Oswald;
+    margin-bottom: 10px;
+    font-size: 36px;
+}
+
+.carousel-client{
+    margin-top: 50px;
+}
